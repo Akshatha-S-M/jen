@@ -1,0 +1,19 @@
+Variable Arguments:
+
+
+Syntax:
+
+public static void fun(int ...a)
+{
+	//arr is a variable here as int a
+}
+
+fun can be called with zero or more arguments like:
+fun(7), fun(7,8,9), fun(5,6,7,8,9)
+------------------------------
+
+public static void numbers(int a, int ... b)
+
+Atleast one integer is required
+
+numbers(7), numbers(7,8,9)
